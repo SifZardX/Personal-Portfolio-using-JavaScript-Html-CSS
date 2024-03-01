@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(202, 196, 196);
+  margin: 1%;
+  padding: 1%;
+}
+
+header {
+  background-color: #5a5858;
+  overflow: hidden;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: larger;
+}
+
+h1 {
+  color: #f3f2f5;
+  text-align: center; 
+}
+
+nav,
+footer {
+  background-color: #333;
+  overflow: hidden;
+  border-radius: 20px; 
+}
+
+nav a,
+footer a {
+  color: white;
+  text-align: center;
+  padding: 10px 20px; 
+  text-decoration: none;
+  border-radius: 20px; 
+  margin: 5px;
+  transition: background-color 0.3s; 
+}
+
+nav a:hover,
+footer a:hover {
+  background-color: #555;
+}
+
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  overflow: hidden;
+}
+
+.sticky-nav a {
+  float: left;
+  display: inline-block; 
+  padding: 14px 16px;
+}
+
+.sticky-nav a:hover {
+  background-color: #555;
+}
+
+#pic {
+  float: right; 
+  width: 25%; 
+  margin: 10px; 
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.courses {
+  text-align: center;
+  margin-top: 3%; 
+}
+
+button[type="submit"] {
+  margin-top: 3%; 
+}
+
+.courses ol {
+  display: none;
+}
+
+#blah {
+  display: flex;
+  justify-content: center;
+}
+
+#line {
+  display: flex;
+  justify-content: center;
+}
+
